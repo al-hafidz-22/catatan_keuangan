@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 30px;
+  font-family: "Poppins", sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  min-height: 100vh;
+}
+
+/* Judul */
+h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+/* Card/form container */
+.card {
+  background: #1e1e1e;
+  border-radius: 14px;
+  padding: 25px;
+  max-width: 720px;
+  margin: 0 auto 30px;
+  box-shadow: 0 0 15px rgba(18, 203, 223, 0.776);
+  border: 1px solid #2c2c2c;
+}
+
+/* Input dan select */
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 12px 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #444;
+  border-radius: 10px;
+  background: #2a2a2a;
+  color: #f5f5f5;
+  font-size: 14px;
+}
+
+/* Placeholder */
+input::placeholder {
+  color: #aaaaaa;
+}
+
+/* video */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 10px;
+  flex-wrap: wrap; /* Biar responsif */
+}
+
+.form-section {
+  flex: 1;
+}
+
+.video-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.video-section video {
+  max-width: 70%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.815);
+}
+
+/* Tombol */
+button {
+  background-color: #03dac5;
+  color: #000;
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #00c8b4;
+}
+
+/* Tabel */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: #1f1f1f;
+  border-radius: 10px;
+  overflow: hidden;
+  color: #eee;
+}
+
+th,
+td {
+  padding: 14px;
+  text-align: left;
+  border-bottom: 1px solid #333;
+  font-size: 11px; /* <-- Ukuran font tabel diperkecil di sini */
+}
+
+th {
+  background-color: #272727;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* Tombol hapus */
+.delete-btn {
+  background-color: #cf6679;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.delete-btn:hover {
+  background-color: #b23b4f;
+}
+
+/* Total */
+#total-bulan {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+  color: #03dac5;
+  text-shadow: 0 0 3px #03dac5;
+}
