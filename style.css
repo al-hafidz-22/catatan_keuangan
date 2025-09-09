@@ -49,6 +49,7 @@ input::placeholder {
 }
 
 /* video */
+/* Container form + foto */
 .container {
   display: flex;
   justify-content: space-between;
@@ -62,17 +63,20 @@ input::placeholder {
   flex: 1;
 }
 
-.video-section {
+.foto-section {
   flex: 1;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-.video-section video {
-  max-width: 100%;
-  height: auto;
+.foto-section img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
   border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0, 255, 255, 0.815);
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.815);
+  object-fit: cover; /* biar foto rapi */
 }
 
 /* Tombol */
